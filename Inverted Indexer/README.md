@@ -1,9 +1,9 @@
 ## Dependencies
 The system expects parsed text files in the directory `parsed` that must be created 
 ## Task 1: 
-###Implement an inverted indexer and create inverted indexes
+### Implement an inverted indexer and create inverted indexes
 
-####Files:
+#### Files:
 - `creating_unigram_inverted_list.py`
 - `creating_bigram_inverted_list.py`
 - `creating_trigram_inverted_list.py`
@@ -23,7 +23,7 @@ The delta encoded inverted list of unigrams is created and stored in `inverted_l
 
 
 ## Task 2: 
-###Use Positional Index to Process Conjunctive Proximity Queries
+### Use Positional Index to Process Conjunctive Proximity Queries
 
 Using the positional inverted index from the above section, retrieving a list of documents that contain pair of terms within a proximity of k.
 
@@ -31,20 +31,20 @@ Using the positional inverted index from the above section, retrieving a list of
 
 
 ## Task 3: 
-###Compute Corpus Statistics; Propose Stop Lists
+### Compute Corpus Statistics; Propose Stop Lists
 
-* ####Part 1
+* #### Part 1
     * Generate a term frequency table comprising of two
 columns: term and term frequency (for the corpus).
     * Sort the table from most to least frequent.
 
-* ####Part 2
+* #### Part 2
     * Generate a document frequency table comprising of three columns: term, docIDs, and document frequency. 
     * Sort lexicographically based on term.
-* ####Part 3:
+* #### Part 3:
     * Generate 3 stop lists, one per index from Task 1.
 
-####Files:
+#### Files:
 - `stop_list_generation_unigram.py`
 - `stop_list_generation_bigram.py`
 - `stop_list_generation_trigram.py`
