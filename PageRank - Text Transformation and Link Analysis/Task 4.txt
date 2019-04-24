@@ -1,0 +1,102 @@
+Task 4 a:
+
+1)
+The PageRank algorithm theoretically uses an imaginary surfer which randomly clicks on links to add randomness and make sure that we jump on every link even when the user eventually stops clicking. The probability, at any step, that the person will continue is a damping factor d(lambda).
+
+It can also be thought of as the click-through probability, that is included to prevent sinks (i.e. pages with no outgoing links) from "absorbing" the PageRanks of those pages connected to the sinks.  It is easy to see that an infinite surfer would have to end up in a sink given enough time, so the damping factor allows a heuristic to offset the importance of those sinks.  That is why the first term of the PageRank equation, (1−d)/N, is included.  It is the chance of being on a random page after restart, while the second term is normalized so that all PageRanks sum to one. 
+
+If d=1, the person clicking will click forever, and thus they will always end up in a sink. In such cases, we must discard the first term.  The second term, given an infinite number of iterations to convergence, is equivalent to finding the steady state of the Markov chain representing pages and links. 
+
+On the other hand, if the damping factor is 0, then all clicks are random restarts, which are uniformly distributed (the 1/N coefficient in the first term) by definition.
+
+So, a damping factor 0 < d <1
+is a sort of weighted average between the two extremes.
+
+After re running the pagerank algorithm for various lambda values, we can conclude that higher values for the damping factor provide us results closer to the base url.
+Thus we must have a damping factor that induces more randomness for the random surfer model.
+
+
+2.
+
+Running the task for 4 iterations did not change must. This could have happened because the we have already achieved convergence. Thus, 4 additional iterations made the changes between I and R too insignificant to change much.
+
+
+3. We consider the focused links for comparing inlink and pagerank
+
+Top 25 for Pagerank:
+
+('https://en.wikipedia.org/wiki/Mars', 0.007517574756263572)
+('https://en.wikipedia.org/wiki/Submarine', 0.004332341275403385)
+('https://en.wikipedia.org/wiki/Low_Earth_orbit', 0.0024557508722525723)
+('https://en.wikipedia.org/wiki/Maryland', 0.0024507105538008303)
+('https://en.wikipedia.org/wiki/Orbit', 0.002415161937563233)
+('https://en.wikipedia.org/wiki/Lockheed_Martin', 0.0023655930705030605)
+('https://en.wikipedia.org/wiki/World_Register_of_Marine_Species', 0.0022116258168849512)
+('https://en.wikipedia.org/wiki/George_Marshall', 0.0021070813047223843)
+('https://en.wikipedia.org/wiki/Martian', 0.002097190304513293)
+('https://en.wikipedia.org/wiki/Space_Shuttle', 0.001995213615330744)
+('https://en.wikipedia.org/wiki/Lagrangian_point', 0.0018271374728698977)
+('https://en.wikipedia.org/wiki/Hohmann_transfer_orbit', 0.0017787513403086919)
+('https://en.wikipedia.org/wiki/Marshall_Plan', 0.0017728379323953291)
+('https://en.wikipedia.org/wiki/Colonization_of_Mars', 0.001772414116532682)
+('https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter', 0.0017681299444918838)
+('https://en.wikipedia.org/wiki/Smartphone', 0.0017502667963236298)
+('https://en.wikipedia.org/wiki/Curiosity_(rover)', 0.001749170365552848)
+('https://en.wikipedia.org/wiki/Orbital_eccentricity', 0.0017452638558661405)
+('https://en.wikipedia.org/wiki/Parabolic_trajectory', 0.0017293314015428243)
+('https://en.wikipedia.org/wiki/Mars_rover', 0.0017213162494502344)
+('https://en.wikipedia.org/wiki/Biomarker', 0.0016919833679108517)
+('https://en.wikipedia.org/wiki/Martin_Marietta', 0.0016539021721681865)
+('https://en.wikipedia.org/wiki/List_of_films_set_on_Mars', 0.001640270328272597)
+('https://en.wikipedia.org/wiki/Mars_Global_Surveyor', 0.0016368513376480223)
+('https://en.wikipedia.org/wiki/Haute-Marne', 0.0016237597282150135)
+
+
+Top 25 for InLink
+('https://en.wikipedia.org/wiki/Mars', 461)
+('https://en.wikipedia.org/wiki/Colonization_of_Mars', 307)
+('https://en.wikipedia.org/wiki/Exploration_of_Mars', 302)
+('https://en.wikipedia.org/wiki/Human_mission_to_Mars', 300)
+('https://en.wikipedia.org/wiki/Mars_rover', 298)
+('https://en.wikipedia.org/wiki/Terraforming_of_Mars', 296)
+('https://en.wikipedia.org/wiki/Inspiration_Mars_Foundation', 296)
+('https://en.wikipedia.org/wiki/Mars_to_Stay', 296)
+('https://en.wikipedia.org/wiki/Mars_landing', 295)
+('https://en.wikipedia.org/wiki/Mars_Society', 295)
+('https://en.wikipedia.org/wiki/Mars_flyby', 293)
+('https://en.wikipedia.org/wiki/The_Mars_Project', 293)
+('https://en.wikipedia.org/wiki/The_Case_for_Mars', 291)
+('https://en.wikipedia.org/wiki/List_of_missions_to_Mars', 282)
+('https://en.wikipedia.org/wiki/List_of_artificial_objects_on_Mars', 278)
+('https://en.wikipedia.org/wiki/List_of_Mars_orbiters', 278)
+('https://en.wikipedia.org/wiki/Mars_race', 275)
+('https://en.wikipedia.org/wiki/Curiosity_(rover)', 270)
+('https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter', 249)
+('https://en.wikipedia.org/wiki/Sojourner_(rover)', 244)
+('https://en.wikipedia.org/wiki/Water_on_Mars', 243)
+('https://en.wikipedia.org/wiki/Mars_Global_Surveyor', 236)
+('https://en.wikipedia.org/wiki/Geography_of_Mars', 231)
+('https://en.wikipedia.org/wiki/Viking_program', 216)
+('https://en.wikipedia.org/wiki/List_of_surface_features_of_Mars_imaged_by_Opportunity', 214)
+
+
+As we can see, the inlink page rank algorithm  found a huge number of links pertaining to Mars and thus moved on that tangent. This is a very huge drawback of this algorithm since it does not have an effective filter of spam links and cannot prioritize links or induce a certain amount of randomness.
+
+--------------------------------------------------------------------------------------------------
+Pros of Using InLink over PageRank
+- It is the most intuitive way to rank the web pages. Thus, it can form the base for many other ranking algorthms to be build upon.
+- Inlink provides speedier results and is easier for the search engine to integrate newer pages into the already present corpus.
+
+Cons of using Inlink over Pagerank
+- Inlink is heavily susceptible to link spam. If someone attached their link, even though not relevant, the search engine using inlink count to rank webpages could be fooled to a certain extent
+- Does the find the links more important than the other in the same collection. For a search engine, an efficient ranking is very important. Thus, differentiating and weighing out link importance is critical and often missed by a pure in link ranking algorithm.
+
+
+General Analysis:
+1) Higher pagerank for a particular page is directly proportional to the num of inlinks for the page. 
+   After comparing the top 10 pages found by in-link counts and pagerank respectively, we find that 5 pages are common.
+   In other words, these five pages in the "top 10 in-link counts" also have highest pagerank values, 
+   thereby proving the direct proportionality between a page rank value and the in-link count.
+   
+2) On observing the in-link graph, we find that most of the pages are an in-link to the pages above them, when sorted on basis of pagerank.
+   In other words, a page having a high pagerank value, when it is an in-link to some page,  increases the value of that page and hence, that page rightfully should have a higher pagerank value. 

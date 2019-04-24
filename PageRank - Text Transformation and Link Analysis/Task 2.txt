@@ -1,0 +1,95 @@
+Sinks for G1 :  
+
+['https://en.wikipedia.org/wiki/Crore', 
+'https://en.wikipedia.org/wiki/Private_property', 
+'https://en.wikipedia.org/wiki/Land_claim', 
+'https://en.wikipedia.org/wiki/Northwestern_India', 
+'https://en.wikipedia.org/wiki/Alpine_exploration', 
+'https://en.wikipedia.org/wiki/Emmeline_Stuart-Wortley', 
+'https://en.wikipedia.org/wiki/Lethargy', 
+'https://en.wikipedia.org/wiki/Acute_health_hazard']
+
+No. of sources for G1 :      
+
+['https://en.wikipedia.org/wiki/Ceres']
+
+Maximum number of Inlinks:
+
+344
+Maximum number of Outlinks:
+
+373
+-----------------------------------------------------------------------------------------
+Sinks for G2:
+
+['https://en.wikipedia.org/wiki/U.S._customary_units', 
+'https://en.wikipedia.org/wiki/Mark_Andrews_(filmmaker)', 
+'https://en.wikipedia.org/wiki/Return_to_Mars', 
+'https://en.wikipedia.org/wiki/Fractional_Orbital_Bombardment_System', 
+'https://en.wikipedia.org/wiki/Marinococcus', 
+'https://en.wikipedia.org/wiki/Al-Aqsa_Martyrs%27_Brigades', 
+'https://en.wikipedia.org/wiki/Stalin_vs._Martians', 
+'https://en.wikipedia.org/wiki/Men,_Martians_and_Machines', 
+'https://en.wikipedia.org/wiki/The_Martian_Chronicles_(video_game)', 
+'https://en.wikipedia.org/wiki/Maurice_LaMarche', 
+'https://en.wikipedia.org/wiki/Steve_Martin', 
+'https://en.wikipedia.org/wiki/Marching_band', 
+'https://en.wikipedia.org/wiki/Trojan_Marching_Band', 
+'https://en.wikipedia.org/wiki/Bi-Mart', 
+'https://en.wikipedia.org/wiki/Don_Markstein%27s_Toonopedia', 
+'https://en.wikipedia.org/wiki/Martha_Coolidge', 
+'https://en.wikipedia.org/wiki/Marie_Curie', 
+'https://en.wikipedia.org/wiki/United_States_customary_units', 
+'https://en.wikipedia.org/wiki/Mark_82_bomb', 
+'https://en.wikipedia.org/wiki/Mars_Society_Australia', 
+'https://en.wikipedia.org/wiki/Lobster_Man_from_Mars', 
+'https://en.wikipedia.org/wiki/Mary_A._Turzillo', 
+'https://en.wikipedia.org/wiki/Alastair_Reynolds', 
+'https://en.wikipedia.org/wiki/Sky_Galleons_of_Mars', 
+'https://en.wikipedia.org/wiki/Marvel_Family', 
+'https://en.wikipedia.org/wiki/Mars_Matrix', 
+'https://en.wikipedia.org/wiki/Terraforming_Mars_(board_game)', 
+'https://en.wikipedia.org/wiki/Marketing_mix', 
+'https://en.wikipedia.org/wiki/Marshall_Savage', 
+'https://en.wikipedia.org/wiki/Vladimir_Mikhailovich_Komarov', 
+'https://en.wikipedia.org/wiki/Danish_Maritime_Authority', 
+'https://en.wikipedia.org/wiki/Lyapunov_stability', 
+'https://en.wikipedia.org/wiki/Francesco_Maria_Grimaldi', 
+'https://en.wikipedia.org/wiki/Mariana_Trench', 
+'https://en.wikipedia.org/wiki/Technical_University_of_Denmark', 
+'https://en.wikipedia.org/wiki/Marriage', 
+'https://en.wikipedia.org/wiki/Marty_Friedman_(guitarist)', 
+'https://en.wikipedia.org/wiki/Biz_Markie', 
+'https://en.wikipedia.org/wiki/Marie_Sk%C5%82odowska_Curie', 
+'https://en.wikipedia.org/wiki/Demand_(economics)', 
+'https://en.wikipedia.org/wiki/Lamarckism', 
+'https://en.wikipedia.org/wiki/Martin_J._S._Rudwick', 
+'https://en.wikipedia.org/wiki/World_Register_of_Marine_Species', 
+'https://en.wikipedia.org/wiki/Apis_mellifera_lamarckii', 
+'https://en.wikipedia.org/wiki/Amelanchier_lamarckii', 
+'https://en.wikipedia.org/wiki/Digitalis_lanata', 
+'https://en.wikipedia.org/wiki/Aconitum_lamarckii', 
+'https://en.wikipedia.org/wiki/Lamarckia', 
+'https://en.wikipedia.org/wiki/Oenothera_lamarckiana', 
+'https://en.wikipedia.org/wiki/Rhizophora_x_lamarckii', 
+'https://en.wikipedia.org/wiki/Smart_Communications',
+'https://en.wikipedia.org/wiki/Marble_(toy)', 
+'https://en.wikipedia.org/wiki/Monroe_H._Martin_Prize', 
+'https://en.wikipedia.org/wiki/Sub_Marine_Explorer', 
+'https://en.wikipedia.org/wiki/Denmark_Strait', 
+'https://en.wikipedia.org/wiki/Submarine_power_cable']
+
+
+Sources for G2:
+
+'https://en.wikipedia.org/wiki/List_of_DC_Comics_races', 
+'https://en.wikipedia.org/wiki/Space_trade', 
+'https://en.wikipedia.org/wiki/ExoMars_Rover', 
+'https://en.wikipedia.org/wiki/Mars_Descent_Imager', 
+'https://en.wikipedia.org/wiki/List_of_locations_in_Babylon_5']
+
+Maximum number of Inlinks:
+461
+
+Maximum number of Outlinks
+235
