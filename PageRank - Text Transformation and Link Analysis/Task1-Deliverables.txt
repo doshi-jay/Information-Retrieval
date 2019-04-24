@@ -1,0 +1,10 @@
+The plot seems to obey the Zipf's law, mainly because the curve is fairly similar to the Firgure 4.2 in the text book.
+
+Furthermore the constant c can be found using the formular: 
+r.P = c, where, 
+
+r -> the rank of the word
+P -> is the probability of the rth ranked word
+
+The constant in our case is: 0.09779017309214694
+This is fairly close to 0.1, which is the ideal constant value for the English language.

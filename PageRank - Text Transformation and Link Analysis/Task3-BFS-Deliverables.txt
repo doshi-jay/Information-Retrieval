@@ -1,0 +1,112 @@
+L2 Norm Values:
+[31.6227766017, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+----------------------------------------------------------------------------------------------------------
+
+Page Rank values for each iteration 
+
+[0.9772130595546438, 0.9774081018191715, 0.9774081018191715, 0.9774081018191715, 0.9774081018191715]
+
+----------------------------------------------------------------------------------------------------------
+
+Top 50 links
+
+('https://en.wikipedia.org/wiki/NASA', 0.0035503743808235023)
+
+('https://en.wikipedia.org/wiki/United_States', 0.0032344081488599307)
+
+('https://en.wikipedia.org/wiki/Earth', 0.002681885990250749)
+
+('https://en.wikipedia.org/wiki/Sun', 0.002263904133710947)
+
+('https://en.wikipedia.org/wiki/Moon', 0.002137739728045749)
+
+('https://en.wikipedia.org/wiki/Soviet_Union', 0.002098333876884666)
+
+('https://en.wikipedia.org/wiki/International_Space_Station', 0.002063217983773629)
+
+('https://en.wikipedia.org/wiki/India', 0.001988438864115056)
+
+('https://en.wikipedia.org/wiki/United_Kingdom', 0.0018881824511810886)
+
+('https://en.wikipedia.org/wiki/Australia', 0.001879304964085742)
+
+('https://en.wikipedia.org/wiki/Astronomy', 0.0018126888118306774)
+
+('https://en.wikipedia.org/wiki/Indonesia', 0.0017499073985722125)
+
+('https://en.wikipedia.org/wiki/Albert_Einstein', 0.0017340474295786576)
+
+('https://en.wikipedia.org/wiki/Mars', 0.0017082480653699552)
+
+('https://en.wikipedia.org/wiki/Germany', 0.0016627004810003297)
+
+('https://en.wikipedia.org/wiki/Aristotle', 0.0016608819334178447)
+
+('https://en.wikipedia.org/wiki/Solar_System', 0.0016370978840280221)
+
+('https://en.wikipedia.org/wiki/Venus', 0.0016138122557274388)
+
+('https://en.wikipedia.org/wiki/Europe', 0.0015803224055564303)
+
+('https://en.wikipedia.org/wiki/Hydrogen', 0.001548890516515797)
+
+('https://en.wikipedia.org/wiki/Human_spaceflight', 0.001547867709958691)
+
+('https://en.wikipedia.org/wiki/New_Zealand', 0.0015278567127670938)
+
+('https://en.wikipedia.org/wiki/Pressure', 0.0015275374144112699)
+
+('https://en.wikipedia.org/wiki/Jupiter', 0.0015039285471325084)
+
+('https://en.wikipedia.org/wiki/Galileo_Galilei', 0.0014955750847043142)
+
+('https://en.wikipedia.org/wiki/Magnetic_field', 0.0014842206597707503)
+
+('https://en.wikipedia.org/wiki/Oxygen', 0.001482935476647207)
+
+('https://en.wikipedia.org/wiki/Indian_Ocean', 0.001472454474013515)
+
+('https://en.wikipedia.org/wiki/Milky_Way', 0.0014712939042569636)
+
+('https://en.wikipedia.org/wiki/Special_relativity', 0.0014658713577869102)
+
+('https://en.wikipedia.org/wiki/Star', 0.0014610612400600183)
+
+('https://en.wikipedia.org/wiki/Nature_(journal)', 0.0014583610204633437)
+
+('https://en.wikipedia.org/wiki/Temperature', 0.0014435985050508429)
+
+('https://en.wikipedia.org/wiki/Space_Shuttle', 0.0014401344001108262)
+
+('https://en.wikipedia.org/wiki/Brazil', 0.0014395419546947691)
+
+('https://en.wikipedia.org/wiki/European_Space_Agency', 0.0014334154405089541)
+
+('https://en.wikipedia.org/wiki/Universe', 0.0014121450418277462)
+
+('https://en.wikipedia.org/wiki/Photon', 0.0014064016668920182)
+
+('https://en.wikipedia.org/wiki/Italy', 0.001403756364144205)
+
+('https://en.wikipedia.org/wiki/Apollo_program', 0.0014012507057941574)
+
+('https://en.wikipedia.org/wiki/Africa', 0.0013969354593792707)
+
+('https://en.wikipedia.org/wiki/European_Union', 0.0013926969816959337)
+
+('https://en.wikipedia.org/wiki/Kelvin', 0.0013924280520925842)
+
+('https://en.wikipedia.org/wiki/Hubble_Space_Telescope', 0.001385499715212706)
+
+('https://en.wikipedia.org/wiki/Soviet_space_program', 0.0013786286734458655)
+
+('https://en.wikipedia.org/wiki/Space_exploration', 0.0013767813788728082)
+
+('https://en.wikipedia.org/wiki/Solar_wind', 0.0013751222784673925)
+
+('https://en.wikipedia.org/wiki/James_Cook', 0.0013743365109397025)
+
+('https://en.wikipedia.org/wiki/Evolution', 0.0013705912029541227)
+
+('https://en.wikipedia.org/wiki/Outer_space', 0.0013584329929369242)

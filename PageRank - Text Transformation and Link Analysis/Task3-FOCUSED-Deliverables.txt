@@ -1,0 +1,111 @@
+L2 Norm Values:
+
+[31.6227766017, 0.0, 0.0, 0.0, 0.0, 0.0]
+----------------------------------------------------------------------------------------------------------
+
+Page Rank values for each iteration 
+
+[0.9751545492880264, 0.9753499807746767, 0.9753499807746767, 0.9753499807746767, 0.9753499807746767]
+----------------------------------------------------------------------------------------------------------
+
+Top 50 links
+
+('https://en.wikipedia.org/wiki/Mars', 0.007517574756263572)
+
+('https://en.wikipedia.org/wiki/Submarine', 0.004332341275403385)
+
+('https://en.wikipedia.org/wiki/Low_Earth_orbit', 0.0024557508722525723)
+
+('https://en.wikipedia.org/wiki/Maryland', 0.0024507105538008303)
+
+('https://en.wikipedia.org/wiki/Orbit', 0.002415161937563233)
+
+('https://en.wikipedia.org/wiki/Lockheed_Martin', 0.0023655930705030605)
+
+('https://en.wikipedia.org/wiki/World_Register_of_Marine_Species', 0.0022116258168849512)
+
+('https://en.wikipedia.org/wiki/George_Marshall', 0.0021070813047223843)
+
+('https://en.wikipedia.org/wiki/Martian', 0.002097190304513293)
+
+('https://en.wikipedia.org/wiki/Space_Shuttle', 0.001995213615330744)
+
+('https://en.wikipedia.org/wiki/Lagrangian_point', 0.0018271374728698977)
+
+('https://en.wikipedia.org/wiki/Hohmann_transfer_orbit', 0.0017787513403086919)
+
+('https://en.wikipedia.org/wiki/Marshall_Plan', 0.0017728379323953291)
+
+('https://en.wikipedia.org/wiki/Colonization_of_Mars', 0.001772414116532682)
+
+('https://en.wikipedia.org/wiki/Mars_Reconnaissance_Orbiter', 0.0017681299444918838)
+
+('https://en.wikipedia.org/wiki/Smartphone', 0.0017502667963236298)
+
+('https://en.wikipedia.org/wiki/Curiosity_(rover)', 0.001749170365552848)
+
+('https://en.wikipedia.org/wiki/Orbital_eccentricity', 0.0017452638558661405)
+
+('https://en.wikipedia.org/wiki/Parabolic_trajectory', 0.0017293314015428243)
+
+('https://en.wikipedia.org/wiki/Mars_rover', 0.0017213162494502344)
+
+('https://en.wikipedia.org/wiki/Biomarker', 0.0016919833679108517)
+
+('https://en.wikipedia.org/wiki/Martin_Marietta', 0.0016539021721681865)
+
+('https://en.wikipedia.org/wiki/List_of_films_set_on_Mars', 0.001640270328272597)
+
+('https://en.wikipedia.org/wiki/Mars_Global_Surveyor', 0.0016368513376480223)
+
+('https://en.wikipedia.org/wiki/Haute-Marne', 0.0016237597282150135)
+
+('https://en.wikipedia.org/wiki/List_of_Mars_orbiters', 0.0015489300359887064)
+
+('https://en.wikipedia.org/wiki/Human_mission_to_Mars', 0.0015480541697680805)
+
+('https://en.wikipedia.org/wiki/Exploration_of_Mars', 0.0015307610971132984)
+
+('https://en.wikipedia.org/wiki/Mars_landing', 0.0015106132015484154)
+
+('https://en.wikipedia.org/wiki/Water_on_Mars', 0.001509562019570887)
+
+('https://en.wikipedia.org/wiki/Orbital_period', 0.001508963706891658)
+
+('https://en.wikipedia.org/wiki/List_of_missions_to_Mars', 0.0015022346015793795)
+
+('https://en.wikipedia.org/wiki/Geosynchronous_orbit', 0.0015008551736275075)
+
+('https://en.wikipedia.org/wiki/Geostationary_orbit', 0.0014890759820393497)
+
+('https://en.wikipedia.org/wiki/Geology_of_Mars', 0.001485724365315262)
+
+('https://en.wikipedia.org/wiki/Nuclear_submarine', 0.0014856508601932474)
+
+('https://en.wikipedia.org/wiki/Mars_Exploration_Rover', 0.0014784464330836907)
+
+('https://en.wikipedia.org/wiki/InSight', 0.0014769052889893675)
+
+('https://en.wikipedia.org/wiki/Mars_Express', 0.0014663304444098436)
+
+('https://en.wikipedia.org/wiki/Perturbation_(astronomy)', 0.0014529870577095418)
+
+('https://en.wikipedia.org/wiki/Mars_flyby', 0.0014476928572112753)
+
+('https://en.wikipedia.org/wiki/Viking_1', 0.0014464803944342628)
+
+('https://en.wikipedia.org/wiki/Mars_2020', 0.0014394005998804207)
+
+('https://en.wikipedia.org/wiki/College_Park,_Maryland', 0.0014368465628365897)
+
+('https://en.wikipedia.org/wiki/Mars_in_fiction', 0.0014347503164092244)
+
+('https://en.wikipedia.org/wiki/Mars_Society', 0.0014286642917525768)
+
+('https://en.wikipedia.org/wiki/Ballistic_missile_submarine', 0.001424667947317336)
+
+('https://en.wikipedia.org/wiki/List_of_rocks_on_Mars', 0.0014109977729736159)
+
+('https://en.wikipedia.org/wiki/Spirit_(rover)', 0.0014078098776333285)
+
+('https://en.wikipedia.org/wiki/Martian_soil', 0.0014065770613557289)
