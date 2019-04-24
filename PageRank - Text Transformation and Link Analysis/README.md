@@ -1,16 +1,3 @@
-## System Requirements
-
-For running the files, we would need the following libraries: 
-
-1. Python (>= v 2.7)
-
-2. BeautifulSoup     - pip install --upgrade --force-reinstall beautifulsoup4 
-
-3. NLTK              - http://www.nltk.org/install.html
-
-4. Matplotlib        - pip install matplotlib
-
-
 ## Task 1: Tokenizing and creating trigrams
 
 - task1.py : Does Task 1-a. Downloads all articles in BFS.txt
