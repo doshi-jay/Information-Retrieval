@@ -1,0 +1,12 @@
+Efficiency: 
+Time taken by BSF(after commenting out the code to download files) : 546 seconds
+
+Time taken by DFS : 377 seconds
+
+For a BFS crawl to complete, we need to store all the children of the parent at a given time. In the worst case, the space complexity is equal to the number of visited nodes.
+
+For the DFS crawl to complete, we need to store the parent of a given child and its parent and so on till the seed url. In the worst case, the space complexity is equal to the depth of the tree.
+
+
+For Breadth First Search, the topic is fully explored before it moves on to the next depth. The similarity between contents of all links at a particular depth is greater than the contents of links belonging to different depts. 
+Furthermore, as we keep following links and traverse deeper in our search tree, we can get content with largely different topics and all the links at lower depths which may be relevant but occur in the farther parts of the search tree are never explored. Thus, with BFS we can get more topic focused and relevant content that has higher similarity with our seed.  
