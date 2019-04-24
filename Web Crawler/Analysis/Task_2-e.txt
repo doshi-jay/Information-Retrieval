@@ -1,0 +1,35 @@
+Q: How topic focused are your results? What keyword variations did you
+consider? Discuss your choice and your overall results.
+
+A:
+The entire process can be divided into 2 parts:
+
+1. Getting valid URLs:
+- Valid URLs are those urls which start with /wiki , are not page redirects, URLs with #, external links, main Wikipedia
+page, navigations and marginal/side links etc. 
+-Once we have a Valid URL, we can check if it is focussed or not.
+
+2. Checking if a given url is focussed:
+- Inorder to do so, we need check if the url is focused or the anchor text is focused.
+- In the fetched URLs, words are separated by '_'
+- In the anchor text, the words are separated by ' '
+- We break the url and anchor text into an array of words.
+- For each word, we check if the keyword is a part of that word.
+- If the keyword is the part of the word, then the word is the keyword itself or it is a part of some other big word.
+- If the keyword itself is the word, then we return true. i.e. the url is focused.
+- If the keyword is not the word, then after removing the keyword from the word, we check if it is a valid word in the dictionary.
+- If it is a valid word, then we return true. i.e. the url is focused.
+
+The main keywords that I selected were by going through the seed article and finding relevant words that would belong to the Space Exploration domain.
+The following words for chosen for focused crawling: ["spaceflights", "launch", "mars","rover", "orbiter", "pathfinder", "mars mission", "mars exploration", "mission", "exploration", "space", "astronauts", "astronaut", "rocket", "flight"]
+
+File focused.txt has the links which are a result of focused crawl for ["spaceflights", "launch", "mars","rover", "orbiter", "pathfinder", "mars mission", "mars exploration", "mission", "exploration", "space", "astronauts", "astronaut", "rocket", "flight"]
+Files overlap between focused crawl and bfs : 317
+Files overlap between focused crawl and dfs : 37
+Files overlap between bfs and dfs : 232
+
+We can observe that the overlap between our bfs and dfs is lower. This is because DFS moves away from the topic of our seed. It exhaustively visits all the nodes while moving ahead until we reach the maximum depth and back tracking. Hence, in DFS, the number of nodes visited at depths 5 and 6 will be the maximum and thus, more deviating from the topic.This also explains the low overlap between the focused crawl and DFS.
+
+From the Files overlap between focused crawl for ["spaceflights", "launch", "mars","rover", "orbiter", "pathfinder", "mars mission", "mars exploration", "mission", "exploration", "space", "astronauts", "astronaut", "rocket", "flight"] and bfs, we observe that the overlap is high. This is because in BFS, all the urls at the given depth are explored before jumping on to the next depth.
+
+Hence, we can conclude that, accuracy wise, BFS is a better option.
